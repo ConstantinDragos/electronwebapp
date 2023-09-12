@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.outer_frame {
+  background-color: lightgray;
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-items: center;
+}
+.display_frame {
+  color: black;
+  border: 2px solid;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  grid-template-rows: auto;
+}
+.timer_display {
+  font-size: 40px;
+  background-color: white;
+}
+.key_panel {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: auto auto auto;
+}
+.min_sec {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+.lean_button {
+  font-size: 20px;
+}
+.wide_button {
+  font-size: 20px;
+}
